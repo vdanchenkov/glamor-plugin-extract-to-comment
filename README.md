@@ -32,10 +32,9 @@
   </a>
 </p>
 
-<p align="center"><big>
-Glamor plugin. Removes labels from styles and shows them as comments on stylesheet.
-</big></p>
-
+<big>
+Glamor plugin that extracts specified css property to comment for better readability.
+</big>
 
 ## Install
 
@@ -54,6 +53,9 @@ plugins.add(extractToComment('label', true))
 // or simply
 plugins.add(extractToComment())
 ```
+<p align="center">
+  <img src="screenshot.png" width="773"/>
+</p>
 
 ## License
 
