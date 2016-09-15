@@ -53,9 +53,9 @@ plugins.add(extractToComment('label', true))
 // or simply
 plugins.add(extractToComment())
 ```
-<p align="center">
-  <img src="screenshot.png" width="773"/>
-</p>
+
+<img src="screenshot.png" width="773" style="border: 1px solid gray"/>
+
 
 ## License
 
