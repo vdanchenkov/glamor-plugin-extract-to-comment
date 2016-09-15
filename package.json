@@ -1,6 +1,6 @@
 {
   "name": "glamor-plugin-extract-to-comment",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Glamor plugin. Extracts css properties to comments for better readability.",
   "main": "dist/index.js",
   "files": [
