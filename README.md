@@ -6,13 +6,13 @@
          alt="NPM Version">
   </a>
 
-  <a href="https://coveralls.io/r/danchenkov/glamor-plugin-extract-to-comment">
-    <img src="https://img.shields.io/coveralls/danchenkov/glamor-plugin-extract-to-comment.svg?style=flat-square"
+  <a href="https://coveralls.io/r/vdanchenkov/glamor-plugin-extract-to-comment">
+    <img src="https://img.shields.io/coveralls/vdanchenkov/glamor-plugin-extract-to-comment.svg?style=flat-square"
          alt="Coverage Status">
   </a>
 
-  <a href="https://travis-ci.org/danchenkov/glamor-plugin-extract-to-comment">
-    <img src="https://img.shields.io/travis/danchenkov/glamor-plugin-extract-to-comment.svg?style=flat-square"
+  <a href="https://travis-ci.org/vdanchenkov/glamor-plugin-extract-to-comment">
+    <img src="https://img.shields.io/travis/vdanchenkov/glamor-plugin-extract-to-comment.svg?style=flat-square"
          alt="Build Status">
   </a>
 
@@ -21,8 +21,8 @@
          alt="Downloads">
   </a>
 
-  <a href="https://david-dm.org/danchenkov/glamor-plugin-extract-to-comment.svg">
-    <img src="https://david-dm.org/danchenkov/glamor-plugin-extract-to-comment.svg?style=flat-square"
+  <a href="https://david-dm.org/vdanchenkov/glamor-plugin-extract-to-comment.svg">
+    <img src="https://david-dm.org/vdanchenkov/glamor-plugin-extract-to-comment.svg?style=flat-square"
          alt="Dependency Status">
   </a>
 
