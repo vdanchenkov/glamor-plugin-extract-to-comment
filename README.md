@@ -40,7 +40,7 @@ Glamor plugin. Removes labels from styles and shows them as comments on styleshe
 ## Install
 
 ```sh
-npm i -D glamor-plugin-extract-to-comment
+npm install -S glamor-plugin-extract-to-comment
 ```
 
 ## Usage
