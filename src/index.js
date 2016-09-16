@@ -1,5 +1,15 @@
 let warned = false
 
+const omit = (object, property) => {
+  const acc = {}
+  Object.keys(object).forEach((key) => {
+    if (key !== property) {
+      acc[key] = object[key]
+    }
+  })
+  return acc
+}
+ 
 export default (property = 'label', removeProperty = true, padding = 20) => {
   if (property.selector) {
     // Misuse
@@ -13,13 +23,13 @@ export default (property = 'label', removeProperty = true, padding = 20) => {
   
   return ({ selector, style }) => {
     const { label, ...rest } = style
-    let comment = label || '' 
+    let comment = style[property] || '' 
     for (let i = comment.length; i < padding; i++) {
       comment += ' '
     } 
     selector = `/* ${comment}*/ ${selector}`
-    if (removeProperty && label) {
-      style = rest
+    if (removeProperty && style[property] !== undefined) {
+      style = omit(style, property)
     }
     return ({ selector, style }) 
   }
